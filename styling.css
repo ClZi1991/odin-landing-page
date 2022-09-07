@@ -1,0 +1,51 @@
+/* General settings */
+
+.fonts {
+    font-family: 'Times New Roman', Times, serif
+}
+
+/*Buttons*/
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px 20px;
+    
+}
+
+button:hover {
+    background-color: #0361f7;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #0744a7;
+    transition: 0.2s;
+}
+
+.border-button {
+    border: 2px;
+    border-color: white;
+}
+
+/* Backgrounds & main fonts */
+
+.background-one, .background-two, .background-six {
+    background-color: #1F2937;
+}
+
+.background-three {
+
+}
+
+.background-four {
+    background-color: #E5E7EB;
+}
+
+.background-five {
+    
+}
