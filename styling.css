@@ -1,7 +1,9 @@
 /* General settings */
 
-.fonts {
-    font-family: 'Times New Roman', Times, serif
+.main{  
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 /*Buttons*/
@@ -13,7 +15,8 @@ button {
     border: 0px;
     border-radius: 5px;
     padding: 4px 20px;
-    
+    width: auto;
+    height: 30px;
 }
 
 button:hover {
@@ -34,18 +37,77 @@ button:active{
 
 /* Backgrounds & main fonts */
 
-.background-one, .background-two, .background-six {
+.theme-one {
     background-color: #1F2937;
+    display:flex;
+    padding: 0 100px;
+    justify-content: space-between;
 }
 
-.background-three {
+.theme-two {
+    background-color: #1F2937;
+    display:flex;
+    padding: 0 100px;
+}
+
+.theme-three {
 
 }
 
-.background-four {
+.theme-four {
     background-color: #E5E7EB;
 }
 
-.background-five {
+.theme-five {
     
+}
+
+.theme-six {
+    background-color: #1F2937;
+    display:flex;
+}
+
+/*individual styling */
+/*headers*/
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FaF8;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 28px;
+    color: #E5E7EB;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color:#1F2937;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.header {
+    display:flex;
 }
